@@ -91,10 +91,10 @@ public class DaoRol {
         DaoRol dao = new DaoRol();
         System.out.println("----ACTUALIZAR-----");
         BeanStatus status2 = new BeanStatus();
-        status2.setId(2);
+        status2.setId(4);
         status2.setName("Inactivo");
         BeanRol rolUpdate = new BeanRol();
-        rolUpdate.setId(1);
+        rolUpdate.setId(10);
         rolUpdate.setName("SuperAdmin");
         rolUpdate.setStatus(status2);
         if (dao.updateRol(rolUpdate)){
